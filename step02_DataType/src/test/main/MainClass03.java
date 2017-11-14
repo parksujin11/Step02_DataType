@@ -13,6 +13,15 @@ public class MainClass03 {
 		boolean isRun=true;
 		if(isRun) {
 			System.out.println("달려요~");
+			
+		//비교 연산의 결과로 얻어진 boolean type 데이터를 변수에 담기 
+			boolean isGreater = 10>1;
+			
+			if(isGreater) {
+				System.out.println("10은 1보다 커요");
+			}
+			//논리연산의 결과로 얻어진 boolean type 데이터를 변수에 담기
+			boolean result =  true || false; //or 연산자-> || and 는 &&
 		}
 		System.out.println("메인 메소드가 종료 됩니다.");
 	}
